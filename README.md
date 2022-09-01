@@ -13,7 +13,7 @@ Change the path to xml_clean.ps1 in this wrapper to wherever you will be storing
 Used to clean up IPTV EPG files generated mainly from epg.best, though I assume it will work the same for other EPG providers that use the same guide APIs. 
 This will create a config.json file in the /home/user/.xteve/data directory (create if it doesn't exist). It indexes all XML files for xTeve and their file hashes, then removes data from the xml files that will cause freezing in Plex for these EPGs, and then call the Plex API to reload the EPG guide.
 
-You need to update the script with your Plex Token and the DVR key of the xTeve DVR, these can be seen when viewing XMLs in your plex library.
+You need to update the script with your Linux username, Plex Token and the DVR key of the xTeve DVR. These can be seen when viewing XMLs in your plex library.
 
 Requirements: 
 
