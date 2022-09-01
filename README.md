@@ -6,6 +6,8 @@ Will eventually add all useful plex scripts I have created here.
 
 This is the bash wrapper used to invoke xml_clean.ps1 using a service only, **not a cron job**. The script recurringly runs and checks for changes every 5 seconds, so do not run multiple instances of the script, just a systemd service is needed to call the xml_wrapper on system reboot.
 
+Change the path to xml_clean.ps1 in this wrapper to wherever you will be storing these files.
+
 **xml_clean.ps1:**
 
 Used to clean up IPTV EPG files generated mainly from epg.best, though I assume it will work the same for other EPG providers that use the same guide APIs. 
